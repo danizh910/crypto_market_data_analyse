@@ -1,0 +1,19 @@
+tickers:
+  - BTC-USD
+  - ETH-USD
+  - SOL-USD
+
+start_date: null
+end_date: null
+
+rolling_window: 30
+risk_free_rate: 0.0
+annualization_factor: 365
+acf_lags: 30
+
+paths:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+  report_dir: reports
+  figures_dir: reports/figures
+  summary_report: reports/summary.md
